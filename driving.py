@@ -11,3 +11,6 @@ elif country == '美國':	# elif是根源於if 所以同屬上面的if大架構
 		print('你可以考駕照')
 	else:
 		print('你還不能考駕照')
+else:	# 使用else 否則 告訴使用者 只能輸入台灣跟美國
+	print('你只能輸入 台灣/美國')
+# 共三條路線
