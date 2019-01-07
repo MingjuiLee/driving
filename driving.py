@@ -6,3 +6,8 @@ if country == '台灣':
 		print('你可以考駕照')
 	else:	# if 的延伸功能
 		print('你還不能考駕照')
+elif country == '美國':	# elif是根源於if 所以同屬上面的if大架構
+	if age >= 16:
+		print('你可以考駕照')
+	else:
+		print('你還不能考駕照')
